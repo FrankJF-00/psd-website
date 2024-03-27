@@ -51,19 +51,23 @@ footer {
   right: 56%;
   width: 40%;
   justify-content: space-between;
+  height: 2rem;
 }
-.foot textarea {
-  font-size: 1.5rem;
+.foot form textarea {
+  font-size: 1rem;
+  justify-content: left;
 }
-.foot button {
-  height: 1.8rem;
-  width: 2.5rem;
+
+.foot form button {
+  display: flex;
+  height: 2rem;
+  width: 2.7rem;
+  background-color: gainsboro;
   justify-content: center;
 }
-.textarea {
+
+form {
   display: flex;
   flex-direction: row;
   padding: 1rem;
-  justify-content: left;
 }
-/*Moinsen*/
