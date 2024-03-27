@@ -22,6 +22,7 @@ body {
   background-color: var(--txt-color-two);
   font-family: var(--main-font);
 }
+
 a {
   text-decoration: none;
   color: var(--txt-color-one);
