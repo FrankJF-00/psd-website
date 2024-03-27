@@ -2,7 +2,7 @@ footer {
   color: white;
   height: 397px;
   width: 1600px;
-  background-image: url(/design-assets/bgk-footer.png);
+  background-image: url(./design-assets/bgk-footer.png);
   font-size: 1.2rem;
 }
 .foot {

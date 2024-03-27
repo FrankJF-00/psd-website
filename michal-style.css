@@ -11,32 +11,6 @@ body {
   max-width: 1600px;
 }
 
-/* #michalsection1 {
-  background-image: url(./design-assets/bgk-middle.png);
-  color: white;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: flex-start;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 20vw;
-  flex-direction: row;
-}
-
-#michalsection1 h2 {
-  margin-top: 10%;
-}
-
-.playbutton {
-  display: grid;
-  justify-items: center;
-  text-transform: uppercase;
-} */
-
 #michalsection2 {
   padding: 5%;
   padding-top: 4%;
@@ -47,6 +21,7 @@ body {
   height: 100%;
   flex-direction: row;
   font-size: 0.75rem;
+  background-color: #ffffff;
 }
 
 #michalsection2 h2 {
