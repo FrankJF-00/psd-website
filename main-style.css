@@ -1,6 +1,7 @@
 @import "franx-style.css";
+@import "michal-style.css";
 @import "sid-style.css";
-
+@import "Danielstyle.css";
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +22,7 @@ body {
   background-color: var(--txt-color-two);
   font-family: var(--main-font);
 }
+
 a {
   text-decoration: none;
   color: var(--txt-color-one);
