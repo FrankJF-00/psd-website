@@ -13,20 +13,20 @@ body {
   max-width: 1600px;
 }
 
-.amazing-team{
+.amazing-team {
   background-image: url("./design-assets/bgk-header.png");
 }
 
-hr{
+hr {
   border-bottom: 1.5 solid gray;
 }
-
 
 /* sidhdhali anfang css */
 
 /* ----------------------expertise------------------------- */
 
 .expertise {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,14 +36,13 @@ hr{
 
 #heading {
   color: #403e4b;
-  margin:  0.4em;
+  margin: 0.4em;
 }
 
-#para{
+#para {
   color: #a0a0a0;
-  margin:  0.4em;
+  margin: 0.4em;
 }
-
 
 hr {
   border-bottom: 1px solid grey;
@@ -51,14 +50,12 @@ hr {
   margin: 1em auto 0.6em auto;
 }
 
-
-.exp-grid ul{
+.exp-grid ul {
   background-color: rgb(213, 209, 209);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.1em;
   list-style: none;
-  
 }
 
 .exp-grid ul li {
@@ -67,14 +64,14 @@ hr {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding:  1em;
+  padding: 1em;
   background-color: #fff;
 }
 
-.exp-grid ul li img{
+.exp-grid ul li img {
   /* height: 3rem;
   width: 3rem; */
-  margin: 1em ;
+  margin: 1em;
 }
 
 .exp-grid ul li h2 {
@@ -83,31 +80,28 @@ hr {
   margin: 1em;
 }
 
-.exp-grid ul li p{
+.exp-grid ul li p {
   color: #a0a0a0;
 }
 
-
-
-
 /* ------------------Amazing-team---------------- */
 
-.amazing-team{
+.amazing-team {
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center ;
+  align-items: center;
   padding: 4em;
 }
 
-#amazing-h{
+#amazing-h {
   margin: 0.4em;
 }
 
-.amazing-p{
-  border: 1px solid; 
-  margin: 0.4em ;
+.amazing-p {
+  border: 1px solid;
+  margin: 0.4em;
 }
 
 /* hr {
@@ -116,8 +110,7 @@ hr {
   margin: 0.6em;
 } */
 
-
-.team-gallery ul{
+.team-gallery ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
@@ -127,45 +120,40 @@ hr {
   margin: 3em auto 0 auto;
 }
 
-.team-gallery li{
+.team-gallery li {
   text-align: center;
   border: 0.8px solid white;
   width: 230px;
-  
-
 }
 
-.team-gallery  img{
+.team-gallery img {
   width: 230px;
   height: 230px;
-  }
+}
 
-.team-gallery h3{
+.team-gallery h3 {
   margin: 0.5em auto 0 auto;
   font-size: 1em;
 }
 
-.team-gallery p{
-margin: 0.4em auto 1em auto;
-font-size: 0.9rem;
+.team-gallery p {
+  margin: 0.4em auto 1em auto;
+  font-size: 0.9rem;
 }
 
-#amaz-p-bottom
-  {
+#amaz-p-bottom {
   margin: 4em auto 2em auto;
- 
 }
 
-button{
-  color:#67d8cb;
-  border: 1px solid #67d8cb ;
+button {
+  color: #67d8cb;
+  border: 1px solid #67d8cb;
   border-radius: 1px;
-  height:40px;
+  height: 40px;
   padding: 1em;
   text-align: center;
   justify-content: center;
   background-color: transparent;
 }
-
 
 /* -----------sidhdhali fertig css------------- */
