@@ -1,4 +1,4 @@
-@import "frank-stlye.css";
+@import "franx-stlye.css";
 @import "michal-style.css";
 @import "sid-style.css";
 @import "daniel-style.css";
@@ -23,6 +23,7 @@ body {
   background-color: var(--txt-color-two);
   font-family: var(--main-font);
 }
+
 a {
   text-decoration: none;
   color: var(--txt-color-one);
