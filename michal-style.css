@@ -29,6 +29,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 2.5%;
   font-family: --head-font;
+  font-size: 2em;
 }
 
 .michalsection2bigbox {
@@ -104,7 +105,7 @@ textarea {
 
 .clientsection {
   display: grid;
-  grid-template-columns: 0.35fr 0.35fr;
+  grid-template-columns: 0.45fr 0.45fr;
   grid-template-rows: 11%;
   height: 23vw;
   width: 100%;
