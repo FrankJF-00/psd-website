@@ -3,19 +3,20 @@ footer {
   height: 397px;
   width: 1600px;
   background-image: url(./design-assets/bgk-footer.png);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .foot {
   position: relative;
-  left: 12%;
-  padding: 2rem;
-  margin: 2rem;
-  width: 40%;
+  left: 19%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 50%;
   max-height: 50%;
   max-width: 20%;
+  gap: 1rem;
+  word-spacing: 0.2rem;
 }
 .foot p {
-  float: right;
   text-align: left;
 }
 .footercontainer {
@@ -23,24 +24,28 @@ footer {
   width: 100%;
   height: 100%;
 }
-.foot img {
-  float: left;
-}
 .foot h4 {
   font-size: 2.5rem;
   color: aqua;
   font-weight: 0;
   margin: 10%;
+  white-space: nowrap;
+  padding-bottom: 0.5rem;
 }
 .foot h5 {
   margin: 10%;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  padding-top: 2rem;
 }
 .copy {
+  display: flex;
+  flex-direction: row;
   position: relative;
   top: 80%;
   right: 20%;
   font-size: 1rem;
-  height: 2rem;
+  white-space: nowrap;
 }
 .help {
   font-size: 1rem;
@@ -48,25 +53,24 @@ footer {
   flex-direction: row;
   position: relative;
   top: 80%;
-  right: 56%;
-  width: 40%;
+  right: 43%;
+  gap: 1rem;
   justify-content: space-between;
   height: 2rem;
+  white-space: nowrap;
 }
 .foot form textarea {
   font-size: 1rem;
-  justify-content: left;
+  justify-content: center;
   background-color: transparent;
 }
-
 .foot form button {
   display: flex;
   height: 2rem;
   width: 2.7rem;
-  background-color: gainsboro;
+  background-color: rgba(175, 175, 175, 0.432);
   justify-content: center;
 }
-
 footer form {
   display: flex;
   flex-direction: row;
