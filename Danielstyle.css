@@ -46,6 +46,7 @@ footer {
   right: 20%;
   font-size: 1rem;
   white-space: nowrap;
+  max-height: 2rem;
 }
 .help {
   font-size: 1rem;
